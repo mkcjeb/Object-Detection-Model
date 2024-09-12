@@ -33,3 +33,10 @@ Non-structural stabilization methods
 Given the increased vulnerability of coastal areas to infrastructure damage, implementing both structural and non-structural measures is crucial. Structural protection, such as coastal habitats, can mitigate damage. Additionally, non-structural methods like beach nourishment and dune restoration offer effective solutions. Beach nourishment involves adding sand or sediment that widens the beach, reducing storm damage, while dune restoration involves rebuilding dunes and planting native vegetation to stabilize them, trap sand, and enhance coastal habitat.
 
 Another approach is living shorelines, which use vegetation such as oyster reefs, seagrasses, mangroves, and vegetated dunes. These features can calm waves, reduce wave energy, and stabilize the coastline.
+
+# Conclusion
+Our team labeled 60 images for both pre- and post-storm scenarios, achieving an mAP of around 0.50. Additionally, we leveraged Open Source Roboflow datasets, which use auto labeling, with the same images. We tried three different labeling approaches and concluded that manual labeling using polygons that outline the shape of the building without background elements yielded highest results compared to using fixed rectangles. Labeling commercial buildings is identifiable since we considered big parking spaces and flat roofings, while for residential buildings, it tends to appear smaller and with a ridge line in roofing.
+
+Given more time, we could explore hybrid approaches of using polygons and fixed rectangles with overlapping, similar to how Roboflow labeled it. This is for further analysis, as our model performance improved after using open-source datasets from Roboflow.
+
+Model results offer insights to NASA, Ernst and Young, and infrastructure sectors, enhancing disaster response using machine learning and deep learning with Sentinel-2 data, promoting resilient communities.
