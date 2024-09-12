@@ -1,7 +1,7 @@
 By: Michelle Kae Celine Jo-anne Bantugon<br>
 
-Business case built by<br>
-Professor Chase Kusterer<br>
+Business Challenge built by [Professor Chase Kusterer](https://github.com/chase-kusterer)<br>
+Hult International Business School<br>
 Ernst & Young | NASA (2024 EY Open Science Data Challenge)<br>
 Hult International Business School<br>
 
